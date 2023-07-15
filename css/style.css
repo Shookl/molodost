@@ -1,34 +1,24 @@
 /*стилизация кнопки*/
 .button{
-    display: block;
-    height: 40px;
+    display: inline-block;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 21.79px;
+    line-height: 22px;
     background-color: #000000;
     color: #FFFFFF;
-    height: 40px;
     text-align: center;
-    padding-left: 22px;
-    padding-right: 22px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    max-width: 184px;
+    padding: 9px 22px;
 }
 
 /*стилизация баннера*/
 
 .bunner__title{
     font-family: "Montserrat", Arial, sans-serif;
+    text-transform: uppercase;
     font-size: 40px;
     font-weight: 700;
     line-height: 49px;
     color: #1E0606;
-}
-
-.bunner__img{
-    background: url(../img/монстряка.png);
 }
 
 /*стилизация блока про доставку*/
