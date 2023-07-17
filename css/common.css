@@ -29,12 +29,12 @@ a{
 
 /*Стилизация хедера*/
 .header{
-    font-family: "Open Sans", Arial, sans-serif;
     text-transform: uppercase;
 }
 
 .header__search{
-    background: url(../img/search.svg) no-repeat center;
+    background: #fff;
+    border: 1px solid transparent;
 }
 
 .header__button{
@@ -52,9 +52,13 @@ a{
 }
 
 .footer__link{
-    color:white;
+    color:#fff;
 }
 
 .footer__input{
     background: #666666;
+}
+
+.footer__button{
+    background-color: #1E0606;
 }

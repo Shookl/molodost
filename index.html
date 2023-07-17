@@ -10,18 +10,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="header">
-        <img src="#" alt="логотип" class="logo">
+        <div class="logo">
+            <svg width="100" height="52" viewBox="0 0 100 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H18.1129C31.1202 0 40.4058 12.3713 40.4058 24.0356V27.7332C40.4058 39.3974 31.1202 51.7689 18.1129 51.7689H0V0ZM37.6192 24.0356C37.6192 13.5132 29.2167 2.77333 18.1129 2.77333H2.78661V48.9956H18.1129C29.2167 48.9956 37.6192 38.2557 37.6192 27.7333V24.0356Z" fill="#1E0606"/>
+                <path d="M46.4435 0H49.2301V49.2267H64.092V52H46.4435V0Z" fill="#1E0606"/>
+                <path d="M67.8074 0V51.7689H70.5941V27.3833L71.278 26.7025L96.0884 51.7689H100L73.2485 24.7414L98.1084 0H94.1675L70.5941 23.4612V0H67.8074Z" fill="#1E0606"/>
+                </svg>                
+        </div>
         <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__link nodate">
+            <ul class="header__list nodate">
+                <li class="header__link">
                     <a href="#">Новости</a>
                 </li>
-                <li class="header__link nodate">
+                <li class="header__link">
                     <a href="#">Каталог</a>
                 </li>
-                <li class="header__link nodate">
+                <li class="header__link">
                     <a href="#">О нас</a>
                 </li>
             </ul>   
@@ -30,10 +37,10 @@
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.015 0C7.595 0 4.815 2.82 4.815 6.26C4.815 7.72 5.315 9.04001 6.135 10.12L0.255 16.06C-0.085 16.42 -0.085 16.98 0.255 17.32C0.435 17.5 0.655001 17.58 0.875001 17.58C1.115 17.58 1.335 17.5 1.515 17.32L7.395 11.36C8.415 12.1 9.655 12.52 10.995 12.52C14.415 12.52 17.195 9.7 17.195 6.26C17.215 2.8 14.435 0 11.015 0ZM11.015 10.94C8.475 10.94 6.415 8.84 6.415 6.26C6.415 3.68 8.475 1.58 11.015 1.58C13.555 1.58 15.615 3.68 15.615 6.26C15.615 8.84 13.555 10.94 11.015 10.94ZM14.115 6.34C14.075 6.68 13.775 6.94 13.435 6.94C13.395 6.94 13.375 6.94 13.335 6.94C12.955 6.88 12.695 6.54 12.735 6.16C12.875 5.12 11.715 4.58 11.655 4.56C11.315 4.4 11.155 3.98 11.315 3.64C11.475 3.3 11.875 3.14 12.235 3.28C12.315 3.3 14.395 4.26 14.115 6.34ZM12.655 7.86C12.795 8 12.895 8.22001 12.895 8.42001C12.895 8.64001 12.815 8.84 12.655 8.98001C12.515 9.12001 12.295 9.22001 12.095 9.22001C11.895 9.22001 11.675 9.14001 11.535 8.98001C11.395 8.84 11.295 8.62001 11.295 8.42001C11.295 8.22001 11.375 8 11.535 7.86C11.675 7.72 11.895 7.62001 12.095 7.62001C12.295 7.62001 12.495 7.7 12.655 7.86Z" fill="black"/>
                 </svg>
-                
         </button>
         <a href="#" class="header__button">Свяжитесь с нами</a>
     </header>
+
     <main>
         <section class="bunner">
             <h1 class="bunner__title">
@@ -41,23 +48,24 @@
             </h1>
             <p class="bunner__from">Из Словении</p>
             <a href="#" class="button bunner__button">Смотреть</a>
-            <img src="img/монстряка.png" alt="монстряка из новой коллекции игрушек" class="bunner__img">
+            <img src="img/monstrtoy.png" alt="монстряка из новой коллекции игрушек" class="bunner__img">
+            <p class="bunner__delivery">Бесплатная доставка при заказе от 2990 $</p>
         </section>
         <section class="catalog">
             <h2 class="catalog__title">
                 Каталог
             </h2>
-            <ul class="catalog__list">
-                <li class="catalog__link_1 nodate">
+            <ul class="catalog__list nodate">
+                <li class="catalog__link_1">
                     <a href="#" class="catalog__font">Одежда для мальчиков</a>
                 </li>
-                <li class="catalog__link_2 nodate">
+                <li class="catalog__link_2">
                     <a href="#" class="catalog__font">Товары для праздников</a>
                 </li>
-                <li class="catalog__link_3 nodate">
+                <li class="catalog__link_3">
                     <a href="#"class="catalog__font">Игрушки</a>
                 </li>
-                <li class="catalog__link_3 nodate">
+                <li class="catalog__link_4">
                     <a href="#" class="catalog__font">Аксессуары</a>
                 </li>
             </ul>   
@@ -67,6 +75,7 @@
                 <p class="catalog__description">Засветка неба наблюдаема. Приливное трение, после осторожного анализа, традиционно выслеживает близкий Южный Треугольник.</p>
             </div>
         </section>
+
         <section class="delivery">
             <img src="#" alt="девушка в платье, которое ей явно не идет" class="delivery__img">
             <h2 class="delivery__title">Доставка</h2>
@@ -75,25 +84,27 @@
             <button class="delivery__button">Оплата</button>
             <p class="delivery__description">Бесспорно, уравнение времени однократно. Многие кометы имеют два хвоста, однако метеорный дождь вращает параллакс, как это случилось в 1994 году с кометой Шумейкеpов-Леви 9.</p>
             <p class="delivery__description">Газопылевое облако пространственно отражает возмущающий фактор. Угловая скорость вращения отражает астероидный Тукан. Туманность Андромеды ищет метеорит.</p>
-            <a href="#" class="button button__delivery">Узнать больше</a>
+            <a href="#" class="button">Узнать больше</a>
         </section>
+
         <section class="partners">
             <h2 class="hidden">Партнеры</h2>
-            <ul class="partners__list">
-                <li class="partnefs__link nodate">
+            <ul class="partners__list nodate">
+                <li class="partnefs__link">
                     <img src="#" alt="mail">
                 </li>
-                <li class="partnefs__link nodate">
+                <li class="partnefs__link">
                     <img src="#" alt="apple">
                 </li>
-                <li class="partnefs__link nodate">
+                <li class="partnefs__link">
                     <img src="#" alt="eltex">
                 </li>
-                <li class="partnefs__link nodate">
+                <li class="partnefs__link">
                     <img src="#" alt="owox">
                 </li>
             </ul>
         </section>
+
         <section class="about">
             <div class="about__us">
                 <h2 class="about__title">Design Life Kids</h2>
@@ -107,6 +118,7 @@
             </div>
         </section>
     </main>
+
     <footer class="footer">
         <div class="footer__section">
             <div class="footer__title">Меню</div>
@@ -131,6 +143,7 @@
                 </li>
             </ul>
         </div>
+
         <div class="footer__section">
             <div class="footer__title">Информация покупателя</div>
             <ul class="nodate">
@@ -154,37 +167,41 @@
                 </li>
             </ul>
         </div>
+
         <div class="footer__section">
             <div class="footer__title">Контакты</div>
             <div class="input">
                 <p class="footer__input">EMAIL</p>
-                <button>
-                    <img src="#" alt="кнопка отправить" class="footer__button">
+                <button class="footer__button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" viewBox="0 0 21 18" fill="none">
+                        <path d="M0.00999999 18L21 9L0.00999999 0L0 7L15 9L0 11L0.00999999 18Z" fill="white"/>
+                        </svg>
                 </button>
             </div>
-            <ul class="footer__socialmedia">
-                <li class="footer__icon nodate">
+            <ul class="footer__socialmedia nodate">
+                <li class="footer__icon">
                     <a href="#">
                         <img src="#" alt="facebook">
                     </a>
                 </li>
-                <li class="footer__icon nodate">
+                <li class="footer__icon">
                     <a href="#">
                         <img src="#" alt="twitter">
                     </a>
                 </li>
-                <li class="footer__icon nodate">
+                <li class="footer__icon">
                     <a href="#">
                         <img src="#" alt="pinterest">
                     </a>
                 </li>
-                <li class="footer__icon nodate">
+                <li class="footer__icon">
                     <a href="">
                         <img src="#" alt="instagram">
                     </a>
                 </li>
             </ul>
         </div>
+        
         <div class="footer__rating">            
             <div class="footer__text">
                 <div class="footer__link">Рейтинг компании</div>
