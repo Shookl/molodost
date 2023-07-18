@@ -1,0 +1,96 @@
+/*стилизация кнопки*/
+.button{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 22px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 9px 22px;
+}
+
+/*стилизация баннера*/
+.bunner{
+    background-color: #EEE4DB;
+}
+
+.bunner__delivery{
+    background-color: #C29974;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    text-transform: uppercase;
+}
+
+.bunner__from{
+    font-family:"Crimson Text", Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+
+/*стилизация блока каталога*/
+
+.catalog__font{
+    font-family: "Montserrat",Arial,sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center; 
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.catalog__link_1{
+    background: url(../img/catalog/sweater.png);
+    width: 280px;
+    height: 270px;    
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.catalog__link_2{
+    background: url(../img/catalog/sock.png);
+    width: 280px;
+    height: 270px;    
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-color: #EADDD3;
+}
+
+.catalog__link_3{
+    background: url(../img/catalog/deer.png);
+    width: 280px;
+    height: 270px;    
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: #F8F2DA;
+}
+
+.catalog__link_4{
+    background: url(../img/catalog/sweater.png);
+    width: 280px;
+    height: 270px;    
+    text-align: center;
+    vertical-align: middle;
+}
+
+.catalog__button{
+    background-color:#E1F0F7;
+    border: 1px solid transparent;
+}
+
+/*стилизация блока про доставку*/
+
