@@ -10,6 +10,24 @@ body {
     color:#1E0606;
 }
 
+.font-title__1{
+    font-family: "Montserrat", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #1E0606;
+}
+
+.font-title__2{
+    font-family: "Montserrat", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #1E0606;
+}
+
 a{
     text-decoration: none;
     color:#1E0606;
